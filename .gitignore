@@ -1,0 +1,31 @@
+# OJS core — don't push third-party source code
+lib/
+locale/
+dbscripts/
+docs/
+js/
+styles/
+templates/
+classes/
+controllers/
+pages/
+api/
+jobs/
+schemas/
+registry/
+plugins/
+tools/
+cypress*/
+
+# OJS runtime — generated files
+cache/
+public/
+
+# Config has passwords
+config.inc.php
+
+# Build/temp files
+*.log
+*.gz
+*.tar
+node_modules/
